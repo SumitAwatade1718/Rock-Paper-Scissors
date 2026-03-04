@@ -3,22 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="parent">
       <div class="header">
         <img
           class="header-emoji"
           src="https://png.pngtree.com/png-vector/20241001/ourmid/pngtree-smiling-face-with-thumbs-up-emoji-png-image_13994371.png"
-          alt="Thumbs up emoji"
         />
+
         <h1>Rock Paper Scissors</h1>
+
         <img
           class="header-emoji"
           src="https://png.pngtree.com/png-vector/20241001/ourmid/pngtree-smiling-face-with-thumbs-up-emoji-png-image_13994371.png"
-          alt="Thumbs up emoji"
         />
       </div>
 
@@ -40,25 +46,14 @@
       </div>
 
       <div class="images">
-        <img
-          onclick="action('rock')"
-          src="https://cdn-icons-png.flaticon.com/512/1998/1998612.png"
-          alt="rock"
-        />
+        <i onclick="action('rock')" class="fa-solid fa-hand-back-fist"></i>
 
-        <img
-          onclick="action('paper')"
-          src="https://cdn-icons-png.flaticon.com/512/2541/2541988.png"
-          alt="paper"
-        />
+        <i onclick="action('paper')" class="fa-solid fa-hand"></i>
 
-        <img
-          onclick="action('scissors')"
-          src="https://cdn-icons-png.flaticon.com/512/1998/1998664.png"
-          alt="scissors"
-        />
+        <i onclick="action('scissors')" class="fa-solid fa-hand-peace"></i>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
